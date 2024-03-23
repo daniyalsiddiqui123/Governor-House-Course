@@ -1,15 +1,18 @@
 {
-  "name": "step00_helloworld",
+  "name": "simple_calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple calculator with TypeScript, Node.js and Inquirer",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
   "devDependencies": {
-    "@types/node": "^20.11.19"
+    "@types/inquirer": "^9.0.7"
   }
 }
